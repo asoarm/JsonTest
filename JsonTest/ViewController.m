@@ -98,7 +98,7 @@
     }
     
     [db setShouldCacheStatements:YES];
-    
+    //Surveyを内部DBへImport
     [self surveyimport:db];
     
     [db close];
@@ -113,7 +113,7 @@
 }
 
 -(void)surveyimport:(FMDatabase*) db{
-    
+    //PHPのURL
     NSURL *jsonUrl = [NSURL URLWithString:@"http://asoarm.chobi.net/data/survey.php"];
     NSError *error = nil;
     NSData *jsonData = [NSData dataWithContentsOfURL:jsonUrl options:kNilOptions error:&error];
