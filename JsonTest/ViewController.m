@@ -14,7 +14,15 @@
 @end
 
 @implementation ViewController
-
+//PHPのURL
+//http://asoarm.chobi.net/data/survey.php
+//http://asoarm.chobi.net/data/question.php
+//http://asoarm.chobi.net/data/questiondetail.php
+//http://asoarm.chobi.net/data/answer.php
+//http://asoarm.chobi.net/data/comment.php
+//http://asoarm.chobi.net/data/choice.php
+//http://asoarm.chobi.net/data/enterprise.php
+//http://asoarm.chobi.net/data/section.php
 - (void)viewDidLoad
 {
     [super viewDidLoad];
